@@ -12,6 +12,11 @@ body
 	color: #333;
 }
 
+.clear
+{
+	clear: both;
+}
+
 .left
 {
 	float: left;
@@ -385,6 +390,77 @@ header
 	text-transform: uppercase;
 	margin: 0;
 	padding-top: 4%;
+}
+
+.sales_content_container
+{
+	width: 100%;
+	padding: 5% 0% 0%;
+}
+
+.sales_content_left
+{
+	width: 28%;
+}
+
+.sales_content_left img
+{
+	width: 100%;
+	height: auto;
+}
+
+.sales_content_right
+{
+	width: 68%;
+	padding-top: 11%;
+}
+
+.sales_content
+{
+	width: 48%;
+	margin-bottom: 15%;
+}
+
+.sales_content:hover h2
+{
+	color: #0299c8;
+}
+
+.sales_content:hover p
+{
+	color: #0299c8;
+}
+
+.sales_content_icon
+{
+	width: 12%;
+}
+
+.sales_content_icon img
+{
+	width: 100%;
+	height: auto;
+}
+
+.sales_content h2
+{
+	font-weight: 600;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 3%;
+	transition: all 0.3s;
+}
+
+.sales_content p
+{
+	font-size: 0.9em;
+	color: #666;
+	text-align: left;
+	font-style: normal;
+	width: 100%;
+	padding-top: 3%;
+	transition: all 0.3s;
 }
 
 a
